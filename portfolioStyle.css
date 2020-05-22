@@ -1,39 +1,41 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Titillium+Web:wght@300;600&display=swap');
+
 /* General styles*/
 /*Define your own styles in this stylesheet*/
 body{
 	background-color: rgba(246,246,246,1.00);
 }
 h1, h2, h3, h4, h5, h6{
-	font-family: pt-sans, sans-serif;
-	color: rgba(146,146,146,1.00);
+	font-family: 'Titillium Web', sans-serif;
+	color: f7f7f7;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 600;
 }
 p{
 	font-size: 14px;
-	font-family: pt-sans, sans-serif;
+	font-family: 'Metrophobic', sans-serif;
 	font-style: normal;
 	font-weight: 100;
-	color: rgba(146,146,146,1.00);
+	color: f7f7f7;
 	line-height: 1.8;
 }
 
 
 /* Link styles*/
 a {
-	color: rgba(146,146,146,1.00);
+	color: f7f7f7;
 }
 a:visited {
-	color: rgba(146,146,146,1.00);
+	color: black;
 }
 a:hover {
-	color: rgba(230,230,230,1.00);
+	color: indigo;
 }
 .linkStyle {
-	color: rgba(146,146,146,1.00);
-	font-family: pt-sans, sans-serif;
+	color: f7f7f7;
+	font-family: 'Metrophobic', sans-serif;
 	font-style: normal ;
 	font-weight: 100;
 	text-decoration: none;	
@@ -43,8 +45,9 @@ a:hover {
 	text-align: center;
     padding-top:20px;
     padding-bottom: 10px;
-	font-family:source-sans-pro, muli, sans-serif;
-	font-size:30px;
+	font-family:'Titillium Web', sans-serif;
+  font-weight: 300;
+	font-size:32px;
 }
 .heroHeader {
 	height: 300px;
@@ -61,16 +64,15 @@ a:hover {
 }
 /* Typography styles*/
 .textStyle {
-	font-family: source-sans-pro, sans-serif;
-	font-style: normal;
-	font-weight: 400;
+	font-family: 'Metrophobic', sans-serif;
+	
 }
 
 .headingStyle {
 	/* [disabled]font-family: pt-sans, sans-serif; */
 	/* [disabled]font-style: bold; */
 	/* [disabled]font-weight: 400; */
-	color: rgba(146,146,146,1.00);
+	color: f7f7f7;
 	font-size: 32px;
 }
 .mainHeading {
@@ -81,7 +83,7 @@ a:hover {
 }
 .mainTagline {
 	text-align: left;
-	color: gray;
+	color: f7f7f7;
 	font-size: 19px;
 	margin-top: -1%;
 	padding-bottom:5px;
@@ -152,20 +154,20 @@ h1 {
 }
 .paraContent{
 	font-size: 14px;
-	font-family: pt-sans, sans-serif;
+	font-family: 'Metrophobic', sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	color: rgba(146,146,146,1.00);
+	color: f7f7f7;
 	line-height: 1.8;
 	margin-left: 5%;
 	margin-right: 5%;
 }
 .contentArea{
 	font-size: 14px;
-	font-family: pt-sans, sans-serif;
+	font-family: 'Metrophobic', sans-serif;
 	font-style: normal;
 	font-weight: 100;
-	color: rgba(146,146,146,1.00);
+	color: f7f7f7;
 	line-height: 1.8;
 	text-align: center;
 	margin-left: 5%;
@@ -180,10 +182,10 @@ h1 {
     padding-bottom: 20px;
 }
 .secondarySection {
-	background-color: rgba(208,207,207,1.00);
+	background-color: f7f7f7;
 }
 .secondaryHeading {
-	color: rgba(255,255,255,1.00);
+	color: f7f7f7;
 	text-align: center;
 }
 /*Footer styles*/
